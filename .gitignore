@@ -33,6 +33,7 @@ renderer   # Prevents your compiled executable from being pushed (change if need
 *.swo
 
 # CMake build directories
+compile_flags.txt
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake

@@ -1,0 +1,52 @@
+# Compiled object files
+*.o
+*.obj
+*.lo
+*.slo
+
+# Compiled dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled static libraries
+*.a
+*.lib
+
+# Executable files
+renderer   # Prevents your compiled executable from being pushed (change if needed)
+*.exe
+*.out
+*.app
+*.elf
+
+# Debugging files
+*.dSYM/
+*.gcno
+*.gcda
+*.gcov
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# CMake build directories
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+
+# Vim/Neovim swap files
+*.swp
+*.swo
+*~
+
+# MacOS system files
+.DS_Store
+
+# Code editor settings
+.vscode/
+.idea/
